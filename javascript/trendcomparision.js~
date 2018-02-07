@@ -171,7 +171,7 @@ var myObj = "";
 		if (selectS.value=='Gujarath'){
 			$.ajax({
         	type: "GET",
-        	url: "trends6.csv",
+        	url: "data/trends6.csv",
         	dataType: "text",
         	success: function(data) {processData(data);}
      		});
@@ -179,7 +179,7 @@ var myObj = "";
 		if (selectS.value=='HimachalPradesh'){
 			$.ajax({
         	type: "GET",
-        	url: "trends8.csv",
+        	url: "data/trends8.csv",
         	dataType: "text",
         	success: function(data) {processData(data);}
      		});
