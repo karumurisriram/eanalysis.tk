@@ -172,7 +172,7 @@ var myObj = "";
 		if (selectS.value=='HimachalPradesh'){
 			$.ajax({
         	type: "GET",
-        	url: "consistituency8.csv",
+        	url: "data/consistituency8.csv",
         	dataType: "text",
         	success: function(data) {processData(data);}
      		});
